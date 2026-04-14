@@ -1,0 +1,20 @@
+[
+  {
+    "id": "PRO-001",
+    "company": "Acme Labs",
+    "domain": "acme-labs.example",
+    "contact_name": "Dana Cole",
+    "contact_email": "dana@acme-labs.example",
+    "industry": "B2B software",
+    "country": "US",
+    "status": "qualified",
+    "geo_score": 63,
+    "audit_date": "2026-04-14",
+    "proposal_file": "~/.geo-prospects/proposals/acme-labs.example-proposal-2026-04-14.md",
+    "monthly_value": 3500,
+    "contract_months": 6,
+    "notes": [
+      {"date": "2026-04-14", "text": "Initial GEO audit completed."}
+    ]
+  }
+]

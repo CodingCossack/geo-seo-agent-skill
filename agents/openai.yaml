@@ -1,0 +1,4 @@
+interface:
+  display_name: "GEO SEO Toolkit"
+  short_description: "Audit and implement GEO / AI-search improvements for real sites."
+  default_prompt: "Use the geo-seo-toolkit skill. Start with the smallest worker set that matches the request, tie claims to observed site evidence, and treat heuristic scorers as supporting signals rather than ground truth."

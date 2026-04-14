@@ -1,0 +1,51 @@
+{
+  "url": "https://acme-labs.example",
+  "brand_name": "Acme Labs",
+  "date": "2026-04-14",
+  "geo_score": 63,
+  "scores": {
+    "access_renderability": 82,
+    "citability": 54,
+    "content_trust": 61,
+    "schema_entity_graph": 48,
+    "brand_entity_presence": 41,
+    "platform_fit": 58
+  },
+  "platforms": {
+    "Google AI Overviews": 64,
+    "ChatGPT": 57,
+    "Perplexity": 56,
+    "Gemini": 62,
+    "Bing Copilot": 52
+  },
+  "executive_summary": "The site is technically accessible and largely crawlable, but it underperforms on answer extraction and machine-readable entity packaging. The fastest gains are on page structure, schema completeness, and llms.txt guidance.",
+  "findings": [
+    {
+      "severity": "high",
+      "title": "Answer blocks are buried below generic marketing copy",
+      "description": "Important commercial pages make the user and model read too far before the direct claim or differentiator appears."
+    },
+    {
+      "severity": "high",
+      "title": "Entity markup is incomplete on product and organization pages",
+      "description": "Current JSON-LD exposes only fragments of the organization and product graph, limiting machine-readable context."
+    }
+  ],
+  "quick_wins": [
+    "Move direct answers and concrete differentiators above the fold on priority pages",
+    "Publish llms.txt pointing to homepage, product, pricing, docs, and contact pages"
+  ],
+  "medium_term": [
+    "Expand organization, product, and author schema with stable IDs and sameAs links",
+    "Rework product pages into tighter answer-oriented sections"
+  ],
+  "strategic": [
+    "Build stronger third-party entity presence on relevant platforms",
+    "Publish original research or product comparison assets worth citing"
+  ],
+  "crawler_access": {
+    "GPTBot": {"platform": "ChatGPT", "status": "Allowed", "recommendation": "Keep allowed"},
+    "ClaudeBot": {"platform": "Claude", "status": "Allowed", "recommendation": "Keep allowed"},
+    "PerplexityBot": {"platform": "Perplexity", "status": "Allowed", "recommendation": "Keep allowed"}
+  }
+}

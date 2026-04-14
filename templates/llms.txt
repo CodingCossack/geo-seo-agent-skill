@@ -1,0 +1,19 @@
+# SITE NAME
+> One-sentence description of what the site is and who it serves.
+
+## Primary pages
+- [Homepage](https://example.com/)
+- [Main service or product page](https://example.com/service)
+- [Pricing or plans](https://example.com/pricing)
+- [About](https://example.com/about)
+
+## Documentation or knowledge base
+- [Getting started](https://example.com/docs/getting-started)
+- [API docs](https://example.com/docs/api)
+
+## Editorial or research
+- [Primary blog or insights hub](https://example.com/blog)
+
+## Contact
+- Website: https://example.com/
+- Email: contact@example.com

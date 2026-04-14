@@ -1,0 +1,27 @@
+{
+  "url": "https://example.com",
+  "brand_name": "Example Company",
+  "date": "2026-04-14",
+  "geo_score": 0,
+  "scores": {
+    "access_renderability": 0,
+    "citability": 0,
+    "content_trust": 0,
+    "schema_entity_graph": 0,
+    "brand_entity_presence": 0,
+    "platform_fit": 0
+  },
+  "platforms": {
+    "Google AI Overviews": 0,
+    "ChatGPT": 0,
+    "Perplexity": 0,
+    "Gemini": 0,
+    "Bing Copilot": 0
+  },
+  "executive_summary": "",
+  "findings": [],
+  "quick_wins": [],
+  "medium_term": [],
+  "strategic": [],
+  "crawler_access": {}
+}
