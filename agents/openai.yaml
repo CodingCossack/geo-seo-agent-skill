@@ -1,4 +1,4 @@
 interface:
   display_name: "GEO SEO Toolkit"
-  short_description: "Audit and implement GEO / AI-search improvements for real sites."
-  default_prompt: "Use the geo-seo-toolkit skill. Start with the smallest worker set that matches the request, tie claims to observed site evidence, and treat heuristic scorers as supporting signals rather than ground truth."
+  short_description: "Diagnose and fix SEO and AI-search delivery"
+  default_prompt: "Use $geo-seo-toolkit to find the first broken owner in this site's search-visibility chain, make only the authorised change, and prove each state claimed."
